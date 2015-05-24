@@ -112,7 +112,10 @@ $(this).toggleClass("prt-active", 300);
 
 /*---------_ Contador --------------*/
 $(document).ready(function(){
-   $(".countdown .clock").FlipClock(4908895, {
+
+    var hoje = moment();
+    var dia_evento =  moment("2015-07-05 10:00");
+   $(".countdown .clock").FlipClock((dia_evento.valueOf() - hoje.valueOf())/1000, {
     "countdown": true,
     "clockFace": "DailyCounter"
     
