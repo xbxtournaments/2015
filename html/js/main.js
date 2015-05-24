@@ -30,6 +30,9 @@ $(function() {
  
 $(document).ready(function() {
     var s = $(".sub-wrap");
+    if(!s) {
+        return;
+    }
     var pos = s.position();                   
     $(window).scroll(function() {
         var windowpos = $(window).scrollTop();
