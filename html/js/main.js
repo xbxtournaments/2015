@@ -191,3 +191,16 @@ return false;
 });
  
 });
+
+
+url = GMaps.staticMapURL({
+    size: [450, 260],
+    lat: -10.930388,
+    lng: -37.057562,
+    markers: [
+        {lat: -10.930388,
+            lng: -37.057562}    ]
+});
+
+$('<img/>').attr('src', url)
+    .appendTo('#map');
