@@ -30,3 +30,5 @@ node_modules
 # Ide directory
 # Intellij
 .idea/
+# template
+template/
