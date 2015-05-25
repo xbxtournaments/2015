@@ -1,0 +1,34 @@
+/*  Orange Skin   */ 
+
+/*  Titles Span   */ 
+h3 span { color:#fba648; }
+h4 span { color:#fba648; }
+
+/*  Buttons   */ 
+input.button-newsletter { border:0; background-color:#fba648; border:1px solid #f87e29; border-bottom:3px solid #f87e29;   }
+
+.bt1 { border:0; background-color:#fba648;   border:1px solid #f87e29; border-bottom:3px solid #f87e29; }
+
+/*  Features Hover   */ 
+.featu-hover .step p { background-color:#fba648!important;  }
+
+
+/*  Tabs Button   */ 
+.tabs-text a { background-color:#fba648;  border:0;  border:1px solid #f87e29; border-bottom:3px solid #f87e29; }
+
+
+/*  Extras   */
+.tabs-text2 p.subtitles { color:#fba648;  }
+
+.tabs-text2 a { background-color:#fba648;  border:0;  border:1px solid #f87e29; border-bottom:3px solid #f87e29;  }
+
+
+/*  Pricing   */
+.prics { background-color:#fba648;}
+
+/*  About and Contact Styles   */
+.bt3 { background-color:#fba648; border:0;  border:1px solid #f87e29; border-bottom:3px solid #f87e29; }
+
+input.input-submit { background-color:#fba648;  border:1px solid #f87e29; }
+
+.blog-content a { background-color:#fba648; border:0;  border:1px solid #f87e29; border-bottom:3px solid #f87e29; }

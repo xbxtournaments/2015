@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <title>{{SITENAME}}</title>
+
+    <meta name="keywords" content="xbox, "/>
+    <meta name="description" content="Página do evento do primeiro xbx major tournaments que acontece no dia 05 de julho em Aracaju Sergipe"/>
+    <!-- Stylesheet Plugins and Bootstrap -->
+    <link rel="stylesheet" href="theme/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="theme/css/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="theme/css/lightbox.css"/>
+    <link rel="stylesheet" href="theme/css/flipclock.css"/>
+    <!-- -->
+    <link rel="stylesheet" href="theme/css/styles.css"/>
+    <!-- Google Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Oxygen:700,300,400" rel="stylesheet" type="text/css"/>
+    <link href="http://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet" type="text/css"/>
+
+    <!-- Javascript Library -->
+    <script type="text/javascript" src="theme/js/jquery.min.js"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="theme/img/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <!-- Header -->
+    <div id="htop" class="header">
+        <div class="wrapper">
+
+            <!-- Logo -->
+            <div class="logo"><img src="theme/img/logo.png" alt="XBX Major Tournaments" /></div>
+            <!-- Navigation -->
+            <div class="navi">
+            <ul>
+            <li class="active"><a href="{{SITEURL}}">Inicio</a></li>
+            <li><a id ="feature" href="blog.html">Blog</a></li>
+            <li><a href="about.html" id="pop-contact">Sobre</a></li>
+            </ul>
+            </div>
+        </div>
+    </div><!-- END Header -->
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="wrapper">
+        <h3> <strong> <span>XBX</span> Major Tournaments </strong> <span>05</span> de Julho em Aracaju</h3>
+        <p class="subtitles">1º torneio de jogos de video game Sergipe</p>
+        {% block maincontent %}
+        {% endblock %}
+        </div>
+    </div><!-- END Main Content -->    
+</body>
+</html>
+

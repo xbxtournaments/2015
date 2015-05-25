@@ -1,0 +1,34 @@
+/*  Cyan Skin   */ 
+
+/*  Titles Span   */ 
+h3 span { color:#3fc4d2; }
+h4 span { color:#3fc4d2; }
+
+/*  Buttons   */ 
+input.button-newsletter { border:0; background-color:#3fc4d2; border:1px solid #1ca3b1; border-bottom:3px solid #1ca3b1;   }
+
+.bt1 { border:0; background-color:#3fc4d2;   border:1px solid #1ca3b1; border-bottom:3px solid #1ca3b1; }
+
+/*  Features Hover   */ 
+.featu-hover .step p { background-color:#3fc4d2!important;  }
+
+
+/*  Tabs Button   */ 
+.tabs-text a { background-color:#3fc4d2;  border:0;  border:1px solid #1ca3b1; border-bottom:3px solid #1ca3b1; }
+
+
+/*  Extras   */
+.tabs-text2 p.subtitles { color:#3fc4d2;  }
+
+.tabs-text2 a { background-color:#3fc4d2;  border:0;  border:1px solid #1ca3b1; border-bottom:3px solid #1ca3b1;  }
+
+
+/*  Pricing   */
+.prics { background-color:#3fc4d2;}
+
+/*  About and Contact Styles   */
+.bt3 { background-color:#3fc4d2; border:0;  border:1px solid #1ca3b1; border-bottom:3px solid #1ca3b1; }
+
+input.input-submit { background-color:#3fc4d2;  border:1px solid #1ca3b1; }
+
+.blog-content a { background-color:#3fc4d2; border:0;  border:1px solid #1ca3b1; border-bottom:3px solid #1ca3b1; }

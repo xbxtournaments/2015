@@ -1,0 +1,34 @@
+/*  Blue2 Skin   */ 
+
+/*  Titles Span   */ 
+h3 span { color:#2546a1; }
+h4 span { color:#2546a1; }
+
+/*  Buttons   */ 
+input.button-newsletter { border:0; background-color:#2546a1; border:1px solid #193276; border-bottom:3px solid #193276;   }
+
+.bt1 { border:0; background-color:#2546a1;   border:1px solid #193276; border-bottom:3px solid #193276; }
+
+/*  Features Hover   */ 
+.featu-hover .step p { background-color:#2546a1!important;  }
+
+
+/*  Tabs Button   */ 
+.tabs-text a { background-color:#2546a1;  border:0;  border:1px solid #193276; border-bottom:3px solid #193276; }
+
+
+/*  Extras   */
+.tabs-text2 p.subtitles { color:#2546a1;  }
+
+.tabs-text2 a { background-color:#2546a1;  border:0;  border:1px solid #193276; border-bottom:3px solid #193276;  }
+
+
+/*  Pricing   */
+.prics { background-color:#2546a1;}
+
+/*  About and Contact Styles   */
+.bt3 { background-color:#2546a1; border:0;  border:1px solid #193276; border-bottom:3px solid #193276; }
+
+input.input-submit { background-color:#2546a1;  border:1px solid #193276; }
+
+.blog-content a { background-color:#2546a1; border:0;  border:1px solid #193276; border-bottom:3px solid #193276; }
