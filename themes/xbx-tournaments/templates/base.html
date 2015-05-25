@@ -24,7 +24,11 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="theme/img/favicon.ico" type="image/x-icon" />
 </head>
-<body>
+<body 
+    data-background="theme/img/background-fifa.jpg
+        , theme/img/background-mortalkombat.jpg
+        , theme/img/background-ki.jpg
+        , theme/img/background-projectcars.jpg">
     <!-- Header -->
     <div id="htop" class="header">
         <div class="wrapper">
@@ -51,6 +55,25 @@
         {% endblock %}
         </div>
     </div><!-- END Main Content -->    
+
+    {% include 'footer.html' %}
+
+    </div><div id="popi-bg"></div>
+    <!-- Pattern -->
+    <div class="pattern"></div>
+    <div class="wrapper"><div  class="scroll-top"> <a href="#pop-contact"></a> </div></div>
+    <!-- Plugin Javascript -->
+    <script type="text/javascript" src="theme/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="theme/js/backstretch.js"></script>
+    <script type="text/javascript" src="theme/js/lightbox.js"></script>
+    <script type="text/javascript" src="theme/js/cycle.js"></script>
+    <script type="text/javascript" src="theme/js/slider.js"></script>
+    <script type="text/javascript" src="theme/js/moment.min.js"></script>
+    <script type="text/javascript" src="theme/js/flipclock.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="theme/js/gmaps.js"></script>
+    <!-- site javascript -->
+    <script type="text/javascript" src="theme/js/main.js"></script>
 </body>
 </html>
 

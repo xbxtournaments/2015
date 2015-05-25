@@ -1,13 +1,7 @@
 /*---------  Backstretch -------*/
 
 $(function() {
-    $.backstretch([
-        "img/background-fifa.jpg"
-        , "img/background-mortalkombat.jpg"
-        , "img/background-ki.jpg"
-        , "img/background-projectcars.jpg"
-
-    ], {duration: 3000, fade: 2000});
+    $.backstretch($("body").data("background").split(","), {duration: 3000, fade: 2000});
 });
 
 /*---------  Video Hover and Popup -------*/
