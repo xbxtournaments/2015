@@ -34,3 +34,4 @@ node_modules
 template/pelicanconf.pyc
 output/
 *.pyc
+cache/
