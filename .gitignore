@@ -31,4 +31,6 @@ node_modules
 # Intellij
 .idea/
 # template
-template/
+template/pelicanconf.pyc
+output/
+*.pyc
