@@ -74,7 +74,7 @@ input, button, select, textarea {
  
 .wrapper { width:940px; margin:auto; }
 .clear { clear:both; }
-.pattern { position:fixed; width:100%; background:url(../img/pattern.png) repeat; top:0; display:block; height:100%; z-index:-180;}
+.pattern { position:fixed; width:100%; background:url(/theme/img/pattern.png) repeat; top:0; display:block; height:100%; z-index:-180;}
  
 /* ######## 3 - Header ######  */ 
 .header { background-color:rgba(0,0,0,0.46); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#8c000000', endColorstr='#8c000000'); /* IE */ height:78px; box-shadow:0px -1px 0px rgba(0,0,0,0.2)inset, 0px 1px 0px rgba(255,255,255,0.05); }
@@ -86,7 +86,7 @@ input, button, select, textarea {
 .navi li   {opacity:0.6;}
 .navi li:hover   {opacity:1;}
 .navi li.active   {opacity:1;}
-#blog {  width:56px; height:36px; display:block; background:url(../img/header-button.png)no-repeat; } 
+#blog {  width:56px; height:36px; display:block; background:url(/theme/img/header-button.png)no-repeat; } 
  
 /* ######## 4 - Main Content ######  */ 
 .suby2 { padding:70px 0 112px!important; }
@@ -102,9 +102,9 @@ input, button, select, textarea {
 #tool-video{ z-index:20; position:relative; padding:15px 0; line-height:2.4; width:126px; height:26px; display:block;  color:#fff; margin:8px auto 0; background-position: 0 100%;  }
 #tool-video:hover { color:#fff; position: relative;  z-index:20; }
 #tool-video:hover span { position:absolute;  z-index:2; }
-#tool-video span {   z-index:2; padding:15px 0; width:126px; height:26px; display:block;  color:#fff;  background:url(../img/tooltip.png)no-repeat; background-position:0 100%; position:absolute;	top: 0; left: 0;  right: 0;}
-#pop-video { position:relative; cursor:pointer; width:217px; height:217px; display:block; background:url(../img/play.png) no-repeat; background-position:0 0;  }
-#pop-video span { width:217px; height:217px; display:block;  background:url(../img/play.png) no-repeat;  position:absolute;	top: 0; left: 0; bottom: 0; right: 0; }
+#tool-video span {   z-index:2; padding:15px 0; width:126px; height:26px; display:block;  color:#fff;  background:url(/theme/img/tooltip.png)no-repeat; background-position:0 100%; position:absolute;	top: 0; left: 0;  right: 0;}
+#pop-video { position:relative; cursor:pointer; width:217px; height:217px; display:block; background:url(/theme/img/play.png) no-repeat; background-position:0 0;  }
+#pop-video span { width:217px; height:217px; display:block;  background:url(/theme/img/play.png) no-repeat;  position:absolute;	top: 0; left: 0; bottom: 0; right: 0; }
 .video p strong   { opacity:0.6; z-index:20; position:absolute; top:21px; left:0; right:0; bottom:0; }  
 .video:hover p strong { opacity:0.8; }
 
@@ -142,7 +142,7 @@ h4 span { font-weight:600; }
 .icon img { z-index:8; }
 .icon-hover { opacity:1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; width:111px; margin:0 auto; }
 .featu { width:30%; float:left; margin:65px 0 0; }
-.featu-div  { margin:100px 0 0; width:5%; height:100px; float:left; display:block; background: url(../img/featu-div.png) no-repeat scroll 0 15px ; }
+.featu-div  { margin:100px 0 0; width:5%; height:100px; float:left; display:block; background: url(/theme/img/featu-div.png) no-repeat scroll 0 15px ; }
 .featu:hover { cursor:pointer; }
 .featu  h6 { text-transform:uppercase; margin:20px 0 0; font-size:15px; text-align:center; font-weight:400; color:#848484; }
 .featu  p { margin:20px 35px 0; line-height:1.8; font-size:14px; text-align:center; font-weight:300; color:#9c9c9c;}
@@ -174,16 +174,16 @@ color:#9c9c9c; font-size:11px;   }
     height: 24px;
 }
 .tabs-nav a .icon-game-ea {
-    background:url(../img/tab-ea.png) no-repeat;
+    background:url(/theme/img/tab-ea.png) no-repeat;
 }
 .tabs-nav a .icon-game-mk {
-    background:url(../img/tab-mk.png) no-repeat;
+    background:url(/theme/img/tab-mk.png) no-repeat;
 }
 .tabs-nav a .icon-game-ki {
-    background:url(../img/tab-ki.png) no-repeat;
+    background:url(/theme/img/tab-ki.png) no-repeat;
 }
 .tabs-nav a .icon-game-pc {
-    background:url(../img/tab-pc.png) no-repeat;
+    background:url(/theme/img/tab-pc.png) no-repeat;
 }
 .tabs-nav a .icon-game{
     background-position:0 100%!important;
@@ -349,7 +349,7 @@ box-shadow:1px 0px 2px rgba(0,0,0,0.2);
 }
 
  
-#close2{   background: url("../img/close-contact.png") no-repeat scroll 0 0 transparent;
+#close2{   background: url("/theme/img/close-contact.png") no-repeat scroll 0 0 transparent;
     display: block;
     float: right;
     height: 26px;
@@ -366,7 +366,7 @@ box-shadow:1px 0px 2px rgba(0,0,0,0.2);
 /* ######## 15 - About Styles  ######  */
 
 .extras2 { padding:55px 0 50px;  height:300px; display:block; }
-.abt-div {  height:2px; width:100%; background:url("../img/pr-div.png") repeat-x bottom ;  }
+.abt-div {  height:2px; width:100%; background:url("/theme/img/pr-div.png") repeat-x bottom ;  }
 .team { height:300px; }
 .team-img { width:100px; margin:0 auto 9px; }
 .team .title h3 { text-align:center; font-size:22px; margin:0 0 45px; font-weight:300; }
@@ -573,4 +573,9 @@ input.email-newsletter {   width:140px ;   }
 }
 .extras.location p {
     text-align: center;
+}
+
+
+.team {
+	padding-top: 24px;
 }
