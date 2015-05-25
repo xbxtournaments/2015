@@ -4,37 +4,37 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-    <title>{{SITENAME}}</title>
+    <title>{{SITENAME}} {% block title %}{% endblock title %}</title>
 
     <meta name="keywords" content="xbox, "/>
     <meta name="description" content="Página do evento do primeiro xbx major tournaments que acontece no dia 05 de julho em Aracaju Sergipe"/>
     <!-- Stylesheet Plugins and Bootstrap -->
-    <link rel="stylesheet" href="theme/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="theme/css/bootstrap-responsive.min.css"/>
-    <link rel="stylesheet" href="theme/css/lightbox.css"/>
-    <link rel="stylesheet" href="theme/css/flipclock.css"/>
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/lightbox.css"/>
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/flipclock.css"/>
     <!-- -->
-    <link rel="stylesheet" href="theme/css/styles.css"/>
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/styles.css"/>
     <!-- Google Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Oxygen:700,300,400" rel="stylesheet" type="text/css"/>
     <link href="http://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet" type="text/css"/>
 
     <!-- Javascript Library -->
-    <script type="text/javascript" src="theme/js/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/jquery.min.js"></script>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="theme/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{ SITEURL }}/theme/img/favicon.ico" type="image/x-icon" />
 </head>
 <body 
-    data-background="theme/img/background-fifa.jpg
-        , theme/img/background-mortalkombat.jpg
-        , theme/img/background-ki.jpg
-        , theme/img/background-projectcars.jpg">
+    data-background="{{ SITEURL }}/theme/img/background-fifa.jpg
+        , {{ SITEURL }}/theme/img/background-mortalkombat.jpg
+        , {{ SITEURL }}/theme/img/background-ki.jpg
+        , {{ SITEURL }}/theme/img/background-projectcars.jpg">
     <!-- Header -->
     <div id="htop" class="header">
         <div class="wrapper">
 
             <!-- Logo -->
-            <div class="logo"><img src="theme/img/logo.png" alt="XBX Major Tournaments" /></div>
+            <div class="logo"><img src="{{ SITEURL }}/theme/img/logo.png" alt="XBX Major Tournaments" /></div>
             <!-- Navigation -->
             <div class="navi">
             <ul>
@@ -51,11 +51,16 @@
         <div class="wrapper">
         <h3> <strong> <span>XBX</span> Major Tournaments </strong> <span>05</span> de Julho em Aracaju</h3>
         <p class="subtitles">1º torneio de jogos de video game Sergipe</p>
-        {% block maincontent %}
-        {% endblock %}
         </div>
+        {%block bodyheader %}{%endblock bodyheader %}
     </div><!-- END Main Content -->    
 
+    {% block maincontent %}
+    {% endblock %}
+    <div class="contain">
+        {% block content %}
+        {% endblock content %}
+    </div>
     {% include 'footer.html' %}
 
     </div><div id="popi-bg"></div>
@@ -63,17 +68,17 @@
     <div class="pattern"></div>
     <div class="wrapper"><div  class="scroll-top"> <a href="#pop-contact"></a> </div></div>
     <!-- Plugin Javascript -->
-    <script type="text/javascript" src="theme/js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="theme/js/backstretch.js"></script>
-    <script type="text/javascript" src="theme/js/lightbox.js"></script>
-    <script type="text/javascript" src="theme/js/cycle.js"></script>
-    <script type="text/javascript" src="theme/js/slider.js"></script>
-    <script type="text/javascript" src="theme/js/moment.min.js"></script>
-    <script type="text/javascript" src="theme/js/flipclock.min.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/backstretch.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/lightbox.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/cycle.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/slider.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/moment.min.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/flipclock.min.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-    <script type="text/javascript" src="theme/js/gmaps.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/gmaps.js"></script>
     <!-- site javascript -->
-    <script type="text/javascript" src="theme/js/main.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/main.js"></script>
 </body>
 </html>
 
