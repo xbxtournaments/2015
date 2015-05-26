@@ -230,7 +230,7 @@ img.b {	position: absolute;	left: 0; top: 0; z-index: 12; border:0px solid #cccc
 /* ######## 9 - Extras Section ######  */
 
 .extras { padding:55px 0 50px;  height:320px; display:block;   } 
- 
+.extras h3 { text-align:center; font-size:22px; font-weight:300; }
 .tabs-text2 { width:42%; float:right; }
 .tabs-img2 { width:48%; float:left; }
 .tabs-text2 h6 {  font-size:30px; font-weight:600; color:#222424;   }
@@ -578,4 +578,14 @@ input.email-newsletter {   width:140px ;   }
 
 .team {
 	padding-top: 24px;
+}
+
+.extras.rules {
+	height: 100%;
+}
+.extras.rules .title p {  font-size:18px; font-weight:300; padding:20px 0 0; color:#b2b2b2; text-align: center;  }
+
+.extras.rules .tabs-text {
+	width: 100%;	
+	float: none;
 }
