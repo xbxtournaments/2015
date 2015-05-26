@@ -8,9 +8,9 @@ SITEURL = ''
 
 PATH = 'content'
 THEME = './themes/xbx-tournaments'
-TIMEZONE = 'Brazil/Bahia'
+TIMEZONE = 'Brazil/East'
 
-DEFAULT_LANG = u'br'
+DEFAULT_LANG = u'pt-br'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
