@@ -7,7 +7,7 @@ Authors: Onezino Moreira
 Summary: As regras aplicadas ao torneio de Fifa 15 que será realizado durante o XBX Major Tournaments
 
 # Regras Gerais
-* O jogo será jogado nas configurações `dafault`, a não ser que seja especificado abaixo.
+* O jogo será jogado nas configurações padrão, a não ser que seja especificado abaixo.
 * Não serão permitidos macros do jogo, controles programaveis, ou modificações do hardware.
 * O competidor só poderá parar o jogo se estiver com o domínio da bola, será aceito o tempo de 50 segundos com o jogo parado. Em caso de exceder o tempo o compeditor terá que ficar com o contorle parado por 15 segundos.
 * Cada partida terá o tempo de 2 minutos antes de iniciar para que os competidores realizem os ajustes do time.
