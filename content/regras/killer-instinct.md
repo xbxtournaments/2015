@@ -1,10 +1,10 @@
-Title: Regras para o torneio de EA FIFA 15
+Title: Regras para o torneio de Killer Instinct
 Date: 2015-05-25 18:50
 Category: regras
-Tags: regras, ea, fifa, fifa 15
-Slug: regras-ea-fifa
-Authors: Ielber Pelegrini
-Summary: As regras aplicadas ao torneio de Fifa 15 que será realizado durante o XBX Major Tournaments
+Tags: regras, ki, killer instinct
+Slug: regras-killer-instinct
+Authors: Onezino Moreira
+Summary: As regras aplicadas ao torneio de Killer Instinct que será realizado durante o XBX Major Tournaments
 
 # Regras Gerais
 * O jogo será jogado nas configurações `dafault`, a não ser que seja especificado abaixo.
@@ -13,7 +13,7 @@ Summary: As regras aplicadas ao torneio de Fifa 15 que será realizado durante o
 * Cada competidor terá que trazer seu próprio controle, poderá ser o padrão ou o arcade.
 * Os controles serão utilizados com a USB.
 
-# Regras do Torneio de EA FIFA 15
+# Regras do Torneio de Killer Instinct
 
 ##Versão: Xbox One
 ##Configurações do jogo: Versus Mode, 99 segundos, 2/3 Rounds, 2/3 Lutas
@@ -29,6 +29,7 @@ Summary: As regras aplicadas ao torneio de Fifa 15 que será realizado durante o
 * A Grande Final será disputada em 3/5 lutas o competidor que alcançar três vitórias primeiro será o vencedor. O segundo lugar será o competidor que perdeu a Grande Final. O terceiro lugar será o competidor que perdeu na final da chave dos derrotados.
 
 A imagem abaixo mostra o exemplo da organização das chaves nas finais
+
 
 
 
