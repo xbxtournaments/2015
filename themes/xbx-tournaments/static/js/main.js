@@ -204,3 +204,25 @@ url = GMaps.staticMapURL({
 
 $('<img/>').attr('src', url)
     .appendTo('#map');
+
+
+/*---------- calculador preço --------------*/
+
+$(document).ready(function(){
+    var torneio_individual = 11.9;
+    var torneio_todos = 29.9;
+    var visitante = 3.0;
+    $(".torneios input[type=checkbox]").on("click", function(e) { 
+        var n = $( ".torneios input:checked" ).length;
+        var price = visitante;
+        if(n == 4) {
+            price = torneio_todos;
+        } else if (n > 0 ) {
+            price = n * torneio_individual;
+        }
+        var txtprices = (""+price).split(".");
+        var tmp = "<p>R${REAL}<span>.{CENTAVO}</span></p><p class='prs'>Total</p>";
+        tmp = tmp.replace("{REAL}", txtprices[0]).replace("{CENTAVO}", 0|txtprices[1]);
+        $(".pric-register").html(tmp);
+    });
+});
