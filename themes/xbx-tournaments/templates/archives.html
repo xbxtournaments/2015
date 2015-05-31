@@ -1,16 +1,22 @@
 {% extends "base.html" %}
-{% block archclass %} class="active"{%endblock%}
-{% block title %}Archives{%endblock%}
+{% block title %}BLOG{%endblock%}
 {% block content %}
-
-<dl>
+<div class="main-content">
+<div class="wrapper">
+<h3> Acompanhe o <strong>BLOG</strong> da <strong>XBX</strong>TOURNAMENTS </h3>
+<p class="subtitles">Fique sempre atento as novidades do evento aqui</p>
+</div>
+</div>
     {% for year, date_year in dates|groupby( 'date.year' )|sort(reverse=True) %}  
-            <h3><a href="{{SITEURL}}/{{year}}"  class="text">Archive for {{ year }}</a></h3>
-            <ul class="archive-list">
             {% for article in date_year %}
-                <li><span class="text-muted">{{article.locale_date}} &raquo; </span><a href="{{ SITEURL }}/{{ article.url }}">{{article.title}}</a></li>   
+            <div class="blog-content">
+
+			<h1 class="title"> {{article.title}}</h1>
+			<h2> {{article.locale_date}}</h2>
+			  <p> {{article.summary}}</p>
+			  <a href="{{SITEURL}}/{{article.url}}">Ler</a>
+			</div>
+			<div class="abt-div"></div>
             {% endfor %}
-     </ul>
     {% endfor %}
-</dl>
 {% endblock %}
