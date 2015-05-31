@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'STRIKE7'
 SITENAME = u'XBX MAJOR TOURNAMENTS'
-SITEURL = ''
+SITEURL = 'http://localhost:8000/'
 
 PATH = 'content'
 THEME = './themes/xbx-tournaments'
