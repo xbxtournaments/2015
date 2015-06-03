@@ -1,0 +1,34 @@
+/*  Yellow Skin   */ 
+
+/*  Titles Span   */ 
+h3 span { color:#ffcf2b; }
+h4 span { color:#ffcf2b; }
+
+/*  Buttons   */ 
+input.button-newsletter { border:0; background-color:#ffcf2b; border:1px solid #dbb600; border-bottom:3px solid #dbb600;   }
+
+.bt1 { border:0; background-color:#ffcf2b;   border:1px solid #dbb600; border-bottom:3px solid #dbb600; }
+
+/*  Features Hover   */ 
+.featu-hover .step p { background-color:#ffcf2b!important;  }
+
+
+/*  Tabs Button   */ 
+.tabs-text a { background-color:#ffcf2b;  border:0;  border:1px solid #dbb600; border-bottom:3px solid #dbb600; }
+
+
+/*  Extras   */
+.tabs-text2 p.subtitles { color:#ffcf2b;  }
+
+.tabs-text2 a { background-color:#ffcf2b;  border:0;  border:1px solid #dbb600; border-bottom:3px solid #dbb600;  }
+
+
+/*  Pricing   */
+.prics { background-color:#ffcf2b;}
+
+/*  About and Contact Styles   */
+.bt3 { background-color:#ffcf2b; border:0;  border:1px solid #dbb600; border-bottom:3px solid #dbb600; }
+
+input.input-submit { background-color:#ffcf2b;  border:1px solid #dbb600; }
+
+.blog-content a { background-color:#ffcf2b; border:0;  border:1px solid #dbb600; border-bottom:3px solid #dbb600; }

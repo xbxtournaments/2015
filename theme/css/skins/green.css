@@ -1,0 +1,34 @@
+/*  Green Skin   */ 
+
+/*  Titles Span   */ 
+h3 span { color:#96c11e; }
+h4 span { color:#96c11e; }
+
+/*  Buttons   */ 
+input.button-newsletter { border:0; background-color:#96c11e; border:1px solid #799d13; border-bottom:3px solid #799d13;   }
+
+.bt1 { border:0; background-color:#96c11e;   border:1px solid #799d13; border-bottom:3px solid #799d13; }
+
+/*  Features Hover   */ 
+.featu-hover .step p { background-color:#96c11e!important;  }
+
+
+/*  Tabs Button   */ 
+.tabs-text a { background-color:#96c11e;  border:0;  border:1px solid #799d13; border-bottom:3px solid #799d13; }
+
+
+/*  Extras   */
+.tabs-text2 p.subtitles { color:#96c11e;  }
+
+.tabs-text2 a { background-color:#96c11e;  border:0;  border:1px solid #799d13; border-bottom:3px solid #799d13;  }
+
+
+/*  Pricing   */
+.prics { background-color:#96c11e;}
+
+/*  About and Contact Styles   */
+.bt3 { background-color:#96c11e; border:0;  border:1px solid #799d13; border-bottom:3px solid #799d13; }
+
+input.input-submit { background-color:#96c11e;  border:1px solid #799d13; }
+
+.blog-content a { background-color:#96c11e; border:0;  border:1px solid #799d13; border-bottom:3px solid #799d13; }

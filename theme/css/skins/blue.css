@@ -1,0 +1,34 @@
+/*  Blue Skin   */ 
+
+/*  Titles Span   */ 
+h3 span { color:#2f9be5; }
+h4 span { color:#2f9be5; }
+
+/*  Buttons   */ 
+input.button-newsletter { border:0; background-color:#2f9be5; border:1px solid #1f81c3; border-bottom:3px solid #1f81c3;   }
+
+.bt1 { border:0; background-color:#2f9be5;   border:1px solid #1f81c3; border-bottom:3px solid #1f81c3; }
+
+/*  Features Hover   */ 
+.featu-hover .step p { background-color:#2f9be5!important;  }
+
+
+/*  Tabs Button   */ 
+.tabs-text a { background-color:#2f9be5;  border:0;  border:1px solid #1f81c3; border-bottom:3px solid #1f81c3; }
+
+
+/*  Extras   */
+.tabs-text2 p.subtitles { color:#2f9be5;  }
+
+.tabs-text2 a { background-color:#2f9be5;  border:0;  border:1px solid #1f81c3; border-bottom:3px solid #1f81c3;  }
+
+
+/*  Pricing   */
+.prics { background-color:#2f9be5;}
+
+/*  About and Contact Styles   */
+.bt3 { background-color:#2f9be5; border:0;  border:1px solid #1f81c3; border-bottom:3px solid #1f81c3; }
+
+input.input-submit { background-color:#2f9be5;  border:1px solid #1f81c3; }
+
+.blog-content a { background-color:#2f9be5; border:0;  border:1px solid #1f81c3; border-bottom:3px solid #1f81c3; }
