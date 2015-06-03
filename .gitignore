@@ -30,5 +30,7 @@ node_modules
 # Ide directory
 # Intellij
 .idea/
-# template
-template/cache/\noutput/\n*.pyc
+
+cache/
+output/
+*.pyc
