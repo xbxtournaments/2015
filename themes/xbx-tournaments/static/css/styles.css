@@ -466,7 +466,7 @@ input.email-newsletter {   width:200px ;   }
 .prt-div .span3 { float:left; width:25%; }
 .partners { height:25px; }
 .extras2 { height:550px; }
-.team { display:none; }
+.team { height: auto; }
 .cta { height:400px; }
 .cta p { padding: 0 70px 0; }
 .contact { height:300px; }
@@ -523,7 +523,7 @@ input.email-newsletter {   width:140px ;   }
 .prt-div .span3 { float:left; width:25%; }
 .partners { height:25px; }
 .extras2 { height:550px; }
-.team { display:none; }
+.team { height: auto; }
 .cta { display:none; }
 .cta p { padding: 0 70px 0; }
 .contact { height:300px; }
