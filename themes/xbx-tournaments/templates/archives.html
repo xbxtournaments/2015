@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}BLOG{%endblock%}
+{% block content %}
+<div class="main-content">
+<div class="wrapper">
+<h3> Acompanhe o <strong>BLOG</strong> da <strong>XBX</strong>TOURNAMENTS </h3>
+<p class="subtitles">Fique sempre atento as novidades do evento aqui</p>
+</div>
+</div>
+    {% for year, date_year in dates|groupby( 'date.year' )|sort(reverse=True) %}  
+            {% for article in date_year %}
+            <div class="blog-content">
+
+			<h1 class="title"> {{article.title}}</h1>
+			<h2> {{article.locale_date}}</h2>
+			  <p> {{article.summary}}</p>
+			  <a href="{{SITEURL}}/{{article.url}}">Ler</a>
+			</div>
+			<div class="abt-div"></div>
+            {% endfor %}
+    {% endfor %}
+{% endblock %}

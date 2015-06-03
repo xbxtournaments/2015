@@ -1,0 +1,34 @@
+/*  Red Skin   */ 
+
+/*  Titles Span   */ 
+h3 span { color:#f5593d; }
+h4 span { color:#f5593d; }
+
+/*  Buttons   */ 
+input.button-newsletter { border:0; background-color:#f5593d; border:1px solid #e43317; border-bottom:3px solid #e43317;   }
+
+.bt1 { border:0; background-color:#f5593d;   border:1px solid #e43317; border-bottom:3px solid #e43317; }
+
+/*  Features Hover   */ 
+.featu-hover .step p { background-color:#f5593d!important;  }
+
+
+/*  Tabs Button   */ 
+.tabs-text a { background-color:#f5593d;  border:0;  border:1px solid #e43317; border-bottom:3px solid #e43317; }
+
+
+/*  Extras   */
+.tabs-text2 p.subtitles { color:#f5593d;  }
+
+.tabs-text2 a { background-color:#f5593d;  border:0;  border:1px solid #e43317; border-bottom:3px solid #e43317;  }
+
+
+/*  Pricing   */
+.prics { background-color:#f5593d;}
+
+/*  About and Contact Styles   */
+.bt3 { background-color:#f5593d; border:0;  border:1px solid #e43317; border-bottom:3px solid #e43317; }
+
+input.input-submit { background-color:#f5593d;  border:1px solid #e43317; }
+
+.blog-content a { background-color:#f5593d; border:0;  border:1px solid #e43317; border-bottom:3px solid #e43317; }
