@@ -31,4 +31,4 @@ node_modules
 # Intellij
 .idea/
 # template
-template/
+template/cache/\noutput/\n*.pyc
