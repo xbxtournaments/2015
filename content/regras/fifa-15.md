@@ -18,8 +18,8 @@ Summary: As regras aplicadas ao torneio de Fifa 15 que será realizado durante o
 
 ##Versão: Xbox One
 ##Configurações do jogo: 1x1, sem restrição de times, 4 minutos por tempo, marcação tática.
-* O torneiro será será de partidas simples única eliminação, sendo que a partida se encerrará caso a diferença de gols for de três pontos.
-* O competidor com poderá parar a partida somente quando estiver com a bola. será permitido 3 paradas por jogador em uma partida com o tmepo de 50 segundos cada.
-Caso descumprimento o competidor será penalizado ficando imóvel por 15 segundos.
+* O torneiro será será de partidas simples única eliminação(mata-mata), vecendo que tiver mais gols ao final da partida ou sendo o placar com três gols de diferença a qualquer momento.
+* O competidor poderá parar a partida somente quando estiver com domínio da bola. Será permitido 3 paradas por jogador em uma partida com o tempo de 50 segundos cada. Caso descumprimento o competidor será penalizado ficando imóvel por 15 segundos.
 * O competidor poderá escolher o modo de controle Clássico ou Alternativo. O competidor não poderá alterar entre o modo de marcação e é estritamente proibido alterar qualquer outro tipo de configuração.
-* Em caso de emparte durante uma partida a partida será decidida nos pênatis.
+* Em caso de empate durante uma partida a partida será decidida nos pênatis.
+* A Final será disputada em dois jogos. Em caso de empate será considerado a quantidade de gols fora da casa para desempate. Não se aplica a regra de diferença de três gols para os jogos da Final. O terceiro lugar será disputado em partida única.
