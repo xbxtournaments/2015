@@ -10,6 +10,7 @@ Summary: As regras e termos de aceitação do evento
 
 * A XBX Major Tournaments 2015, evento organizado e coordenado pela XBXTournaments acontecerá dia 05/07/2015 em Aracaju Sergipe, sendo o local definido e sujeito a alteração. Todos os inscritos serão avisados da alteração do local de realização do evento pelo email informado no registro de inscrição.
 * A premiação será dada aos vencedores de cada torneio. Sendo o premio do pote distribuido de forma igual entre todos os vencedores que ficaram em primeiro lugar e o vencedor da competição de cosplay.
+* Os torneios só serão realizados no dia do evento caso atingir a quantidade mínima de inscritos necessários. FIFA, Mortal Kombat X e Killer Instinct com mínimo de 16 competidores. Project Cars mínimo de 10 competidores.
 
 # Premiação
 
